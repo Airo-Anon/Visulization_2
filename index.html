@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Where Australia’s Tourists Concentrate</title>
+
+  <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <h1>Where Australia’s Tourists Concentrate</h1>
+
+    <p class="hero-subtitle">
+    From city crowding pressure to smarter regional distribution
+    </p>
+
+    <p class="hero-lede">
+    Why does tourism pressure feel especially visible in Sydney and Melbourne during peak travel seasons?
+    This visualisation follows the evidence from seasonal transport pressure, to gateway-state concentration,
+    to a more useful question: where could international visitors be spread without reducing the value of tourism?
+    </p>
+
+    <nav class="story-nav" aria-label="Story sections">
+      <a href="#pressure">1. Pressure</a>
+      <a href="#concentration">2. Concentration</a>
+      <a href="#value">3. Value</a>
+      <a href="#spread">4. Recommendation</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="pressure" class="story-part">
+    <div class="story-break">
+      <p class="section-kicker">1 · Pressure</p>
+      <h2>The crowding story starts with timing</h2>
+      <p>
+        Tourism pressure becomes most visible when visitor movement overlaps with everyday local movement.
+        The first chart therefore compares international travel activity with public transport use in New South Wales
+        and Victoria on the same indexed scale.
+      </p>
+    </div>
+
+    <section class="chart-section">
+      <div class="text-block">
+        <p class="chart-number">01</p>
+        <h2>Do tourism peaks overlap with local transport pressure?</h2>
+        <p>
+          Tourism demand does not replace local demand; it is added on top of it. Indexing each series makes
+          different units comparable without pretending they measure the same thing.
+        </p>
+        <div class="key-message">
+          The problem is not simply “too many tourists”. The issue is peak visitor activity overlapping with everyday city movement.
+        </div>
+      </div>
+      <div class="chart-holder" id="tourism_transport_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Values are indexed because international arrivals and public transport trips are measured on different scales.
+      For each series, the highest month in 2025 equals 100. This chart shows overlap in timing, not proof of causation.
+    </p>
+  </section>
+
+    <section id="concentration" class="story-part">
+    <div class="story-break">
+      <p class="section-kicker">2 · Concentration</p>
+      <h2>The pressure is uneven because visitors cluster in a few gateways</h2>
+      <p>
+        The next group of charts moves from a national map to regional hotspots. The story shifts from “Australia has many visitors”
+        to “many visitors enter the same states and recognise the same places.”
+      </p>
+    </div>
+
+    <section class="chart-section map-section">
+      <div class="text-block">
+        <p class="chart-number">02</p>
+        <h2>Are international visitors spread evenly across Australia?</h2>
+        <p>
+          The state map shows broad spatial concentration. New South Wales, Victoria and Queensland function as major gateways,
+          which helps explain why crowding is more visible in some places than others.
+        </p>
+        <div class="key-message">
+          Tourism pressure is spatially concentrated: a few gateway states receive a much larger share of international trips.
+        </div>
+      </div>
+      <div class="chart-holder" id="state_map_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Visitor counts are aggregated from tourism-region international visitor data. The map shows broad state concentration,
+      not exact local crowding within each city.
+    </p>
+
+
+    <section class="chart-section wide-chart-section">
+      <div class="text-block">
+        <p class="chart-number">03</p>
+        <h2>Where exactly are the hotspots?</h2>
+        <p>
+          The bubble map zooms from states into tourism regions. The largest circles sit around gateway cities and iconic coastal destinations,
+          showing that visitor attention is concentrated in recognisable, easy-to-plan places.
+        </p>
+        <div class="key-message">
+          Hotspots are not only states. They are specific regions that visitors can easily recognise, reach and include in a first itinerary.
+        </div>
+      </div>
+      <div class="chart-holder" id="hotspot_bubble_map_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Bubble locations are approximate tourism-region reference points. Use the state filter to focus on one state without changing the story order.
+    </p>
+
+    <section class="chart-section full-chart-section gateway-story-section">
+      <div class="text-block">
+        <p class="chart-number">04</p>
+        <h2>Which gateway states dominate visitor arrivals?</h2>
+        <p>
+        This section combines a gateway map, a dynamic share pie and an airline traffic trend so the story
+        moves from location, to time, to concentration in one flow. Readers can compare where visitor pressure
+        is strongest, how the broader travel trend has shifted, and how dominant the three gateway states remain.
+        </p>
+        <div class="key-message">
+        Visitor pressure is highly concentrated: New South Wales, Queensland and Victoria together
+        account for 83.6% of international visitor trips.
+        </div>
+      </div>
+      <div class="chart-holder" id="gateway_state_rank_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: State totals are based on aggregated international visitor trips from the region-level tourism data used in this story. The line chart uses monthly international airline passenger volumes from BITRE, and the filter keeps the same visual style as the rest of the document.
+    </p>
+
+    <section class="chart-section route-story-section">
+    <div class="route-story-left">
+        <div class="text-block">
+        <p class="chart-number">05</p>
+        <h2>Why do visitors follow the same route?</h2>
+
+        <p>
+            The route map shows where the main tourism hotspots are located, while the ranking chart
+            shows that a small set of iconic cities and coastal destinations sits clearly ahead of the rest.
+        </p>
+
+        <div class="key-message">
+            Visitor choices are shaped by visibility and familiarity: the same small group of iconic
+            cities and coastal destinations dominates international tourism demand.
+        </div>
+        </div>
+    </div>
+
+    <div class="route-story-right">
+        <div id="top_region_map_chart"></div>
+
+        <div class="route-story-bottom">
+        <div class="route-story-note-box">
+            <h3>What does the route mean?</h3>
+            <p>
+            International visitors do not spread evenly across destinations. Instead, they are drawn
+            toward a familiar chain of iconic cities and coastal hotspots that are easy to recognise,
+            easy to market and easy to include in a first trip.
+            </p>
+        </div>
+
+        <div id="top_region_bar_chart"></div>
+        </div>
+    </div>
+    </section>
+
+    <p class="chart-note">
+    Note: The map highlights major tourism hotspots and an illustrative route between them. The bar
+    chart ranks the same destinations by international visitor trips to show their relative popularity
+    more precisely.
+    </p>
+
+    <section class="chart-section full-chart-section">
+      <div class="text-block">
+        <p class="chart-number">06</p>
+        <h2>How concentrated is visitor attention?</h2>
+        <p>
+          The waffle chart deliberately uses a different idiom: each square is one percentage point. This makes the concentration story more concrete than another bar chart.
+        </p>
+        <div class="key-message">
+          The issue is concentration: many visitors are moving through the same small set of places.
+        </div>
+      </div>
+      <div class="chart-holder waffle-holder" id="concentration_share_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Shares are calculated within the top-20 international tourism regions available in the dataset.
+    </p>
+  </section>
+
+    <section id="value" class="story-part">
+    <div class="story-break">
+      <p class="section-kicker">3 · Value</p>
+      <h2>More visitors is not the same as better tourism value</h2>
+      <p>
+        Once concentration is established, the story turns toward solutions. Some places with fewer visitors may still generate high spending
+        or longer stays, which makes them useful candidates for smarter distribution.
+      </p>
+    </div>
+
+    <section class="chart-section full-chart-section">
+      <div class="text-block">
+        <p class="chart-number">07</p>
+        <h2>Do the most visited places create the most value?</h2>
+        <p>
+          Visitor volume alone does not tell the full story. The bubble plot compares popularity with spending per visitor and total expenditure.
+        </p>
+        <div class="key-message">
+          This is the turning point: more visitors is not the only goal; better distribution can also create value.
+        </div>
+      </div>
+      <div class="chart-holder" id="popularity_value_bubble_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Spending per visitor is calculated from regional expenditure divided by international visitor trips. The square-root x-scale reduces extreme compression from Sydney and Melbourne.
+    </p>
+
+    <section class="chart-section full-chart-section">
+      <div class="text-block">
+        <p class="chart-number">08</p>
+        <h2>Which regions are hidden high-value destinations?</h2>
+        <p>
+          The opportunity map separates regions by visitor volume and spending per visitor. The shaded target zone highlights places that receive fewer visitors but already generate stronger value per visitor.
+        </p>
+        <div class="key-message">
+          The strongest alternatives sit in the shaded target zone: lower visitor volume, but above-median visitor value.
+        </div>
+      </div>
+      <div class="chart-holder" id="hidden_value_quadrant_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Dashed lines show the median visitor volume and median spending per visitor across the top-20 tourism regions. The x-axis uses a square-root scale so smaller destinations remain visible beside Sydney and Melbourne.
+    </p>
+
+    <section class="chart-section full-chart-section">
+      <div class="text-block">
+        <p class="chart-number">09</p>
+        <h2>Which hidden-value regions should be prioritised?</h2>
+        <p>
+          The dumbbell chart compares each region's visitor-volume rank against its spend-per-visitor rank. The gap between the two dots represents the hidden-value score: the wider the bar, the more a region's per-visitor value outperforms its popularity.
+        </p>
+        <div class="key-message">
+          The strongest candidates are places where visitor value already looks stronger than popularity.
+        </div>
+      </div>
+      <div class="chart-holder" id="hidden_value_rank_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Hidden-value score is calculated as visitor-volume rank minus spend-per-visitor rank. Higher positive scores indicate stronger priority candidates.
+    </p>
+  </section>
+
+    <section id="spread" class="story-part">
+    <div class="story-break">
+      <p class="section-kicker">4 · Recommendation</p>
+      <h2>Spread demand toward places that already have capacity</h2>
+      <p>
+        The final step avoids the weak recommendation “send tourists anywhere else”. Instead, it checks whether alternative regions already have some tourism-related business capacity.
+      </p>
+    </div>
+
+    <section class="chart-section full-chart-section">
+      <div class="text-block">
+        <p class="chart-number">10</p>
+        <h2>Where could visitors be spread next?</h2>
+        <p>
+          Capacity is represented with tourism-related businesses. The stacked bars separate employing and non-employing businesses, giving a more informative view than a single total.
+        </p>
+        <div class="key-message">
+          Australia does not need fewer tourists. It needs a smarter distribution of tourism demand across regions and seasons.
+        </div>
+      </div>
+      <div class="chart-holder" id="alternative_capacity_chart"></div>
+    </section>
+    <p class="chart-note">
+      Note: Business counts are a broad capacity signal only. They do not measure transport capacity, environmental limits or local resident sentiment.
+    </p>
+  </section>
+
+    <section class="conclusion-card">
+      <p class="section-kicker">Conclusion</p>
+      <h2>From crowding complaint to distribution strategy</h2>
+      <p>
+        The visual story suggests that tourism pressure becomes most visible when seasonal visitor activity overlaps with local transport use,
+        and when international visitors concentrate in a few gateway states and iconic regions. A better response is not to reduce tourism,
+        but to promote high-value alternatives with enough existing tourism capacity.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div>
+      <h2>Metadata</h2>
+      <p><strong>Author:</strong> Yucheng Jiang · <strong>Date:</strong> May 2026</p>
+      <p><strong>Domain:</strong> Australian international tourism distribution and city crowding pressure.</p>
+      <p><strong>Audience:</strong> Average Australian readers, especially people interested in tourism, city congestion and regional development.</p>
+    </div>
+
+    <div>
+      <h3>Data Sources</h3>
+      <ul>
+        <li><strong>BITRE</strong> — International Airline Activity Time Series
+          (<a href="https://www.bitre.gov.au/publications/ongoing/international_airline_activity-time_series" style="color:#f6b17a;">bitre.gov.au</a>)</li>
+        <li><strong>ABS</strong> — Digital Boundary Files, ASGS Edition 3
+          (<a href="https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/access-and-downloads/digital-boundary-files" style="color:#f6b17a;">abs.gov.au</a>)</li>
+        <li><strong>Public Transport Victoria</strong> — Monthly Patronage by Mode
+          (<a href="https://discover.data.vic.gov.au/dataset/monthly-public-transport-patronage-by-mode" style="color:#f6b17a;">data.vic.gov.au</a>)</li>
+        <li><strong>Transport for NSW</strong> — Opal Trips All Modes
+          (<a href="https://opendata.transport.nsw.gov.au/data/dataset/opal-trips-all-modes" style="color:#f6b17a;">opendata.transport.nsw.gov.au</a>)</li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="js/shared.js"></script>
+  <script src="js/chart01_tourism_transport.js"></script>
+  <script src="js/chart02_state_map.js"></script>
+  <script src="js/chart03_hotspot_bubble.js"></script>
+  <script src="js/chart04_gateway_rank.js"></script>
+  <script src="js/chart05_top_region.js"></script>
+  <script src="js/chart06_concentration_waffle.js"></script>
+  <script src="js/chart07_popularity_bubble.js"></script>
+  <script src="js/chart08_hidden_value_quadrant.js"></script>
+  <script src="js/chart09_hidden_value_rank.js"></script>
+  <script src="js/chart10_alternative_capacity.js"></script>
+</body>
+</html>

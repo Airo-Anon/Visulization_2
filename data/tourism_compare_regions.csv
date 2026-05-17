@@ -1,0 +1,77 @@
+state,tourism_region,business_type,micro,small,medium,large,total_employing,non_employing,grand_total,region_key,international_hotspot,international_rank,international_trips,international_nights,international_expenditure
+NSW,Sydney,Total tourism-related,23720,11276,3234,210,38440,42082,80522,sydney,Top 20 international hotspot,1,3529399.9379943586,83589263.88980092,10903.602858146529
+Vic,Melbourne,Total tourism-related,20810,10852,3177,148,34987,45034,80021,melbourne,Top 20 international hotspot,2,2551991.0039140857,70544973.13130286,8401.085694677979
+QLD,Brisbane,Total tourism-related,7949,5591,1666,67,15273,15815,31088,brisbane,Top 20 international hotspot,4,1275027.1665131587,28073489.69137338,3104.7621362006894
+WA,Destination Perth,Total tourism-related,6283,4891,1650,42,12866,13188,26054,destination perth,Top 20 international hotspot,3,812857.0021263013,25748182.75503179,2268.353373145542
+SA,Adelaide,Total tourism-related,3534,2734,813,32,7113,7344,14457,adelaide,Top 20 international hotspot,5,401796.2445843213,10974130.566461675,1134.1462426126182
+QLD,Gold Coast,Total tourism-related,3100,1808,570,27,5505,5904,11409,gold coast,Top 20 international hotspot,6,634683.7149755377,8021289.526099578,1172.3265464118645
+NSW,North Coast NSW,Total tourism-related,2285,1764,498,6,4553,3610,8163,north coast nsw,Top 20 international hotspot,9,292326.2549697139,3888249.37793272,265.93624756371236
+NSW,Hunter,Total tourism-related,1996,1459,456,9,3920,3082,7002,hunter,Top 20 international hotspot,11,158306.7222805668,2945968.5050335433,216.62150744010145
+QLD,Sunshine Coast,Total tourism-related,1822,1273,386,9,3490,3276,6766,sunshine coast,Top 20 international hotspot,10,314352.86226172413,3942267.9196031387,317.769714763776
+NSW,South Coast,Total tourism-related,1745,1169,329,6,3249,2281,5530,south coast,Top 20 international hotspot,16,147834.55643844686,3106034.4096909254,273.51678001024266
+ACT,Canberra,Total tourism-related,1335,1035,310,14,2694,2153,4847,canberra,Top 20 international hotspot,8,214663.31194644552,5431068.756665371,626.5275335025772
+QLD,Tropical North Queensland,Total tourism-related,1089,824,279,10,2202,1847,4049,tropical north queensland,Top 20 international hotspot,7,543294.4020847093,5156625.742986541,980.1196624976236
+Vic,Yarra Valley and the Dandenong Ranges,Total tourism-related,1074,589,131,4,1798,2151,3949,yarra valley and the dandenong ranges,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Peninsula,Total tourism-related,1123,673,162,6,1964,1880,3844,peninsula,Not in top 20 international hotspots,999,NA,NA,NA
+NSW,Central Coast,Total tourism-related,1128,693,180,8,2009,1635,3644,central coast,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Geelong and the Bellarine,Total tourism-related,949,682,171,15,1817,1823,3640,geelong and the bellarine,Top 20 international hotspot,17,73517.98131928858,1292281.7846031478,110.71274841375556
+QLD,Southern Queensland Country,Total tourism-related,936,728,190,3,1857,1638,3495,southern queensland country,Not in top 20 international hotspots,999,NA,NA,NA
+Tas,Hobart and the South,Total tourism-related,896,731,215,9,1851,1628,3479,hobart and the south,Top 20 international hotspot,15,211186.38210623572,2466337.222554804,356.8492422941668
+NSW,Central NSW,Total tourism-related,971,656,154,5,1786,1314,3100,central nsw,Top 20 international hotspot,18,40862.83412149919,1462361.754942546,80.41879701123347
+WA,Australia's South West,Total tourism-related,844,731,209,3,1787,1268,3055,australias south west,Top 20 international hotspot,14,138541.10642921735,2170793.7132361066,158.70593200402828
+NSW,Capital Country,Total tourism-related,699,452,109,0,1260,1115,2375,capital country,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Gippsland,Total tourism-related,725,462,117,4,1308,972,2280,gippsland,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Townsville,Total tourism-related,558,485,168,10,1221,931,2152,townsville,Top 20 international hotspot,20,107943.82708478779,1139751.9889813967,81.21354766605228
+Vic,Great Ocean Road,Total tourism-related,648,477,139,3,1267,876,2143,great ocean road,Not in top 20 international hotspots,999,NA,NA,NA
+NSW,New England North West,Total tourism-related,679,452,93,3,1227,849,2076,new england north west,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,High Country,Total tourism-related,592,376,93,3,1064,798,1862,high country,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Bendigo Loddon,Total tourism-related,520,379,110,0,1009,787,1796,bendigo loddon,Not in top 20 international hotspots,999,NA,NA,NA
+NT,Darwin,Total tourism-related,437,368,131,3,939,832,1771,darwin,Top 20 international hotspot,12,125759.36459577759,3461456.5817468124,235.0986197699028
+NSW,Riverina,Total tourism-related,544,388,110,0,1042,670,1712,riverina,Not in top 20 international hotspots,999,NA,NA,NA
+Tas,Launceston and the North,Total tourism-related,502,335,86,6,929,696,1625,launceston and the north,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Ballarat,Total tourism-related,471,332,91,3,897,690,1587,ballarat,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Goulburn,Total tourism-related,421,269,58,3,751,756,1507,goulburn,Not in top 20 international hotspots,999,NA,NA,NA
+NSW,The Murray,Total tourism-related,435,318,98,3,854,562,1416,the murray,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Capricorn,Total tourism-related,329,331,104,0,764,545,1309,capricorn,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Mackay,Total tourism-related,289,282,114,0,685,514,1199,mackay,Not in top 20 international hotspots,999,NA,NA,NA
+NSW,Blue Mountains,Total tourism-related,383,199,52,3,637,516,1153,blue mountains,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Mallee,Total tourism-related,377,248,53,0,678,427,1105,mallee,Top 20 international hotspot,19,25554.44867003944,1647987.335374641,79.76723752889276
+Vic,Macedon,Total tourism-related,281,180,48,3,512,569,1081,macedon,Not in top 20 international hotspots,999,NA,NA,NA
+Tas,North West,Total tourism-related,336,280,60,0,676,381,1057,north west,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Outback Queensland,Total tourism-related,298,227,48,0,573,429,1002,outback queensland,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Bundaberg,Total tourism-related,260,237,53,4,554,441,995,bundaberg,Not in top 20 international hotspots,999,NA,NA,NA
+WA,Australia's Golden Outback,Total tourism-related,307,228,61,0,596,387,983,australias golden outback,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Fraser Coast,Total tourism-related,283,227,50,0,560,405,965,fraser coast,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Fleurieu Peninsula,Total tourism-related,244,213,43,0,500,446,946,fleurieu peninsula,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Adelaide Hills,Total tourism-related,207,184,44,0,435,462,897,adelaide hills,Not in top 20 international hotspots,999,NA,NA,NA
+WA,Australia's Coral Coast,Total tourism-related,264,219,70,3,556,335,891,australias coral coast,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Central Murray,Total tourism-related,282,197,42,3,524,366,890,central murray,Not in top 20 international hotspots,999,NA,NA,NA
+WA,Australia's North West,Total tourism-related,182,200,74,3,459,363,822,australias north west,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Limestone Coast,Total tourism-related,248,181,46,3,478,280,758,limestone coast,Not in top 20 international hotspots,999,NA,NA,NA
+NSW,Snowy Mountains,Total tourism-related,205,173,44,3,425,277,702,snowy mountains,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Lakes,Total tourism-related,213,163,38,0,414,286,700,lakes,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Whitsundays,Total tourism-related,183,145,56,3,387,279,666,whitsundays,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Phillip Island,Total tourism-related,194,139,33,0,366,262,628,phillip island,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Eyre Peninsula,Total tourism-related,169,156,34,0,359,215,574,eyre peninsula,Not in top 20 international hotspots,999,NA,NA,NA
+QLD,Gladstone,Total tourism-related,124,133,37,0,294,229,523,gladstone,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Western Grampians,Total tourism-related,163,128,23,0,314,195,509,western grampians,Not in top 20 international hotspots,999,NA,NA,NA
+NSW,Outback NSW,Total tourism-related,160,121,32,0,313,175,488,outback nsw,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Flinders Ranges and Outback,Total tourism-related,133,120,24,0,277,201,478,flinders ranges and outback,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Yorke Peninsula,Total tourism-related,151,90,21,0,262,214,476,yorke peninsula,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Barossa,Total tourism-related,107,78,19,3,207,201,408,barossa,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Murray East,Total tourism-related,115,100,25,3,243,146,389,murray east,Not in top 20 international hotspots,999,NA,NA,NA
+SA,"Murray River, Lakes and Coorong",Total tourism-related,102,70,16,0,188,183,371,murray river lakes and coorong,Not in top 20 international hotspots,999,NA,NA,NA
+NT,Alice Springs,Total tourism-related,94,75,35,0,204,145,349,alice springs,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Riverland,Total tourism-related,105,91,17,3,216,128,344,riverland,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Spa Country,Total tourism-related,81,74,12,0,167,155,322,spa country,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Central Highlands,Total tourism-related,111,52,8,0,171,133,304,central highlands,Not in top 20 international hotspots,999,NA,NA,NA
+Tas,East Coast,Total tourism-related,67,59,12,0,138,94,232,east coast,Not in top 20 international hotspots,999,NA,NA,NA
+Vic,Wimmera,Total tourism-related,89,39,6,0,134,95,229,wimmera,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Clare Valley,Total tourism-related,60,50,3,0,113,83,196,clare valley,Not in top 20 international hotspots,999,NA,NA,NA
+NT,Katherine Daly,Total tourism-related,48,41,19,0,108,64,172,katherine daly,Not in top 20 international hotspots,999,NA,NA,NA
+NT,Litchfield Kakadu Arnhem,Total tourism-related,27,33,10,0,70,50,120,litchfield kakadu arnhem,Not in top 20 international hotspots,999,NA,NA,NA
+SA,Kangaroo Island,Total tourism-related,29,29,3,0,61,49,110,kangaroo island,Not in top 20 international hotspots,999,NA,NA,NA
+Tas,West Coast,Total tourism-related,25,18,3,0,46,27,73,west coast,Not in top 20 international hotspots,999,NA,NA,NA
+NT,Barkly,Total tourism-related,11,15,3,0,29,12,41,barkly,Not in top 20 international hotspots,999,NA,NA,NA
+NT,MacDonnell,Total tourism-related,6,12,4,0,22,5,27,macdonnell,Not in top 20 international hotspots,999,NA,NA,NA
+NT,Lasseter,Total tourism-related,0,5,0,0,5,4,9,lasseter,Not in top 20 international hotspots,999,NA,NA,NA

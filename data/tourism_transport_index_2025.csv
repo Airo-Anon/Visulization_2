@@ -1,0 +1,37 @@
+month,value,state,city,series,category,index
+2025-01-01,2359518.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,100.0
+2025-01-01,48414981.0,NSW,Sydney,NSW public transport trips,Local transport,79.8
+2025-01-01,36914399.0,VIC,Melbourne,VIC public transport trips,Local transport,77.6
+2025-02-01,1846939.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,78.3
+2025-02-01,53597792.0,NSW,Sydney,NSW public transport trips,Local transport,88.4
+2025-02-01,39809091.0,VIC,Melbourne,VIC public transport trips,Local transport,83.7
+2025-03-01,1662586.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,70.5
+2025-03-01,60657354.0,NSW,Sydney,NSW public transport trips,Local transport,100.0
+2025-03-01,47552413.0,VIC,Melbourne,VIC public transport trips,Local transport,100.0
+2025-04-01,1757485.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,74.5
+2025-04-01,54264281.0,NSW,Sydney,NSW public transport trips,Local transport,89.5
+2025-04-01,41434098.0,VIC,Melbourne,VIC public transport trips,Local transport,87.1
+2025-05-01,1660553.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,70.4
+2025-05-01,56617109.0,NSW,Sydney,NSW public transport trips,Local transport,93.3
+2025-05-01,45973935.0,VIC,Melbourne,VIC public transport trips,Local transport,96.7
+2025-06-01,1625024.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,68.9
+2025-06-01,53972422.0,NSW,Sydney,NSW public transport trips,Local transport,89.0
+2025-06-01,38113080.0,VIC,Melbourne,VIC public transport trips,Local transport,80.1
+2025-07-01,2071913.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,87.8
+2025-07-01,54071413.0,NSW,Sydney,NSW public transport trips,Local transport,89.1
+2025-07-01,40967486.0,VIC,Melbourne,VIC public transport trips,Local transport,86.2
+2025-08-01,1814129.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,76.9
+2025-08-01,55622396.0,NSW,Sydney,NSW public transport trips,Local transport,91.7
+2025-08-01,41719900.0,VIC,Melbourne,VIC public transport trips,Local transport,87.7
+2025-09-01,1831059.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,77.6
+2025-09-01,57603964.0,NSW,Sydney,NSW public transport trips,Local transport,95.0
+2025-09-01,38839468.0,VIC,Melbourne,VIC public transport trips,Local transport,81.7
+2025-10-01,2088121.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,88.5
+2025-10-01,59593242.0,NSW,Sydney,NSW public transport trips,Local transport,98.2
+2025-10-01,41979053.0,VIC,Melbourne,VIC public transport trips,Local transport,88.3
+2025-11-01,1839638.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,78.0
+2025-11-01,57471412.0,NSW,Sydney,NSW public transport trips,Local transport,94.7
+2025-11-01,38483471.0,VIC,Melbourne,VIC public transport trips,Local transport,80.9
+2025-12-01,1985974.0,Australia,International arrivals,International inbound airline passengers,Tourism activity,84.2
+2025-12-01,53301685.0,NSW,Sydney,NSW public transport trips,Local transport,87.9
+2025-12-01,38421423.0,VIC,Melbourne,VIC public transport trips,Local transport,80.8

@@ -1,0 +1,77 @@
+state,tourism_region,business_type,micro,small,medium,large,total_employing,non_employing,grand_total
+NSW,Sydney,Total tourism-related,23720,11276,3234,210,38440,42082,80522
+Vic,Melbourne,Total tourism-related,20810,10852,3177,148,34987,45034,80021
+QLD,Brisbane,Total tourism-related,7949,5591,1666,67,15273,15815,31088
+WA,Destination Perth,Total tourism-related,6283,4891,1650,42,12866,13188,26054
+SA,Adelaide,Total tourism-related,3534,2734,813,32,7113,7344,14457
+QLD,Gold Coast,Total tourism-related,3100,1808,570,27,5505,5904,11409
+NSW,North Coast NSW,Total tourism-related,2285,1764,498,6,4553,3610,8163
+NSW,Hunter,Total tourism-related,1996,1459,456,9,3920,3082,7002
+QLD,Sunshine Coast,Total tourism-related,1822,1273,386,9,3490,3276,6766
+NSW,South Coast,Total tourism-related,1745,1169,329,6,3249,2281,5530
+ACT,Canberra,Total tourism-related,1335,1035,310,14,2694,2153,4847
+QLD,Tropical North Queensland,Total tourism-related,1089,824,279,10,2202,1847,4049
+Vic,Yarra Valley and the Dandenong Ranges,Total tourism-related,1074,589,131,4,1798,2151,3949
+Vic,Peninsula,Total tourism-related,1123,673,162,6,1964,1880,3844
+NSW,Central Coast,Total tourism-related,1128,693,180,8,2009,1635,3644
+Vic,Geelong and the Bellarine,Total tourism-related,949,682,171,15,1817,1823,3640
+QLD,Southern Queensland Country,Total tourism-related,936,728,190,3,1857,1638,3495
+Tas,Hobart and the South,Total tourism-related,896,731,215,9,1851,1628,3479
+NSW,Central NSW,Total tourism-related,971,656,154,5,1786,1314,3100
+WA,Australia's South West,Total tourism-related,844,731,209,3,1787,1268,3055
+NSW,Capital Country,Total tourism-related,699,452,109,0,1260,1115,2375
+Vic,Gippsland,Total tourism-related,725,462,117,4,1308,972,2280
+QLD,Townsville,Total tourism-related,558,485,168,10,1221,931,2152
+Vic,Great Ocean Road,Total tourism-related,648,477,139,3,1267,876,2143
+NSW,New England North West,Total tourism-related,679,452,93,3,1227,849,2076
+Vic,High Country,Total tourism-related,592,376,93,3,1064,798,1862
+Vic,Bendigo Loddon,Total tourism-related,520,379,110,0,1009,787,1796
+NT,Darwin,Total tourism-related,437,368,131,3,939,832,1771
+NSW,Riverina,Total tourism-related,544,388,110,0,1042,670,1712
+Tas,Launceston and the North,Total tourism-related,502,335,86,6,929,696,1625
+Vic,Ballarat,Total tourism-related,471,332,91,3,897,690,1587
+Vic,Goulburn,Total tourism-related,421,269,58,3,751,756,1507
+NSW,The Murray,Total tourism-related,435,318,98,3,854,562,1416
+QLD,Capricorn,Total tourism-related,329,331,104,0,764,545,1309
+QLD,Mackay,Total tourism-related,289,282,114,0,685,514,1199
+NSW,Blue Mountains,Total tourism-related,383,199,52,3,637,516,1153
+Vic,Mallee,Total tourism-related,377,248,53,0,678,427,1105
+Vic,Macedon,Total tourism-related,281,180,48,3,512,569,1081
+Tas,North West,Total tourism-related,336,280,60,0,676,381,1057
+QLD,Outback Queensland,Total tourism-related,298,227,48,0,573,429,1002
+QLD,Bundaberg,Total tourism-related,260,237,53,4,554,441,995
+WA,Australia's Golden Outback,Total tourism-related,307,228,61,0,596,387,983
+QLD,Fraser Coast,Total tourism-related,283,227,50,0,560,405,965
+SA,Fleurieu Peninsula,Total tourism-related,244,213,43,0,500,446,946
+SA,Adelaide Hills,Total tourism-related,207,184,44,0,435,462,897
+WA,Australia's Coral Coast,Total tourism-related,264,219,70,3,556,335,891
+Vic,Central Murray,Total tourism-related,282,197,42,3,524,366,890
+WA,Australia's North West,Total tourism-related,182,200,74,3,459,363,822
+SA,Limestone Coast,Total tourism-related,248,181,46,3,478,280,758
+NSW,Snowy Mountains,Total tourism-related,205,173,44,3,425,277,702
+Vic,Lakes,Total tourism-related,213,163,38,0,414,286,700
+QLD,Whitsundays,Total tourism-related,183,145,56,3,387,279,666
+Vic,Phillip Island,Total tourism-related,194,139,33,0,366,262,628
+SA,Eyre Peninsula,Total tourism-related,169,156,34,0,359,215,574
+QLD,Gladstone,Total tourism-related,124,133,37,0,294,229,523
+Vic,Western Grampians,Total tourism-related,163,128,23,0,314,195,509
+NSW,Outback NSW,Total tourism-related,160,121,32,0,313,175,488
+SA,Flinders Ranges and Outback,Total tourism-related,133,120,24,0,277,201,478
+SA,Yorke Peninsula,Total tourism-related,151,90,21,0,262,214,476
+SA,Barossa,Total tourism-related,107,78,19,3,207,201,408
+Vic,Murray East,Total tourism-related,115,100,25,3,243,146,389
+SA,"Murray River, Lakes and Coorong",Total tourism-related,102,70,16,0,188,183,371
+NT,Alice Springs,Total tourism-related,94,75,35,0,204,145,349
+SA,Riverland,Total tourism-related,105,91,17,3,216,128,344
+Vic,Spa Country,Total tourism-related,81,74,12,0,167,155,322
+Vic,Central Highlands,Total tourism-related,111,52,8,0,171,133,304
+Tas,East Coast,Total tourism-related,67,59,12,0,138,94,232
+Vic,Wimmera,Total tourism-related,89,39,6,0,134,95,229
+SA,Clare Valley,Total tourism-related,60,50,3,0,113,83,196
+NT,Katherine Daly,Total tourism-related,48,41,19,0,108,64,172
+NT,Litchfield Kakadu Arnhem,Total tourism-related,27,33,10,0,70,50,120
+SA,Kangaroo Island,Total tourism-related,29,29,3,0,61,49,110
+Tas,West Coast,Total tourism-related,25,18,3,0,46,27,73
+NT,Barkly,Total tourism-related,11,15,3,0,29,12,41
+NT,MacDonnell,Total tourism-related,6,12,4,0,22,5,27
+NT,Lasseter,Total tourism-related,0,5,0,0,5,4,9
